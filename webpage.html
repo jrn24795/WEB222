@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01//EN”
+“http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Anime Land!! Manga & Anime</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/713844f3f2.js" crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript"></script>
+  </head>
+  <header>
+    <div class="header">
+      <div class="title">
+        <a href="#"><h1>Anime World</h1></a>
+      </div>
+      <div class="page" id="current">
+        <h3>The World of Anime at your finger tips!</h3>
+      </div>
+      <!--Form is here for stylistic purposes-->
+      <div class="search">
+        <form action="/search" method="POST">
+          <input id="search" type="text" placeholder="Search for title..." />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+
+      <div class="cart">
+        <a href="#"><h4>Cart:</h4></a>
+        <p>0 items</p>
+        <br />
+        <p>Total: $0.00 CAD</p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="navbar">
+        <div class="all">
+            <button class="button buttonall" id="all">All Titles</button>
+          </div>
+      <div class="action">
+        <button class="button buttonaction" id="action">Action</button>
+      </div>
+      <div class="adventure">
+        <button class="button buttonadventure" id="adventure">Adventure</button>
+      </div>
+      <div class="slice of life">
+        <button class="button buttonsliceoflife" id="slice of life">Slice of Life</button>
+      </div>
+      <div class="fantasy">
+        <button class="button buttonfantasy" id="fantasy">Fantasy</button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="wrapper" id="wrapper"></div>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="name">
+        <a href="webpage.html"><p>Anime World</p></a>
+      </div>
+      <div class="about">
+        <a href="#"><p>About Us</p></a>
+      </div>
+      <div class="contact">
+        <a href="contact.html"><p>Contact Us</p></a>
+      </div>
+      <div class="subscribe">
+        <form action="https://formspree.io/mdowjwad" method="POST">
+        <label>
+          Enter your email:
+          <input type="text" name="_replyto">
+          Got something to say? Let me know:
+          <textarea name="message"></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+      </div>
+    </div>
+  </footer>
+</html>
